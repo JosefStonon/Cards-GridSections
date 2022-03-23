@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Tajawal:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ html {
     background-color: hsl(0, 0%, 81%);
     width: 100vw;
     height: 100vh;
+    font-size: 62.5%;
 }
 
 .container {
@@ -15,51 +18,65 @@ html {
     color: aliceblue;
     display: grid;
     grid-template-areas: "a a c d" "e f f d";
-    grid-gap: 30px;
-    font-size: 13px;
+    grid-gap: 3rem;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     margin: 150px 130px;
 }
 
+h1 {
+    font-size: 1.5rem;
+}
+
+
 .daniel {
     background: hsl(263, 55%, 52%);
-    height: 25vh;
+    height: 30vh;
     grid-area: a;
-    padding: 20px;
+    padding: 2rem;
     border-radius: 10px;
 }
 
+.text {
+    margin: 0 auto;
+}
+
+
+
+
 .jonathan {
     background: hsl(217, 19%, 35%);
-    height: 25vh;
+    height: 30vh;
     grid-area: c;
-    padding: 20px;
+    padding: 2rem;
     border-radius: 10px;
 }
 
 .janette {
     background:  hsl(0, 0%, 100%);
     color: hsl(219, 29%, 14%);
-    height: 25vh;
+    height: 30vh;
     grid-area: e;
-    padding: 20px;
+    padding: 2rem;
     border-radius: 10px;
 }
 
 .patrick {
     background: hsl(219, 29%, 14%);
     color: hsl(0, 0%, 81%);
-    height: 25vh;
+    height: 30vh;
     grid-area: f;
-    padding: 20px;
+    padding: 2rem;
     border-radius: 10px;
 }
 
 .kira {
     background:  hsl(0, 0%, 100%);
     color: hsl(217, 19%, 35%);
-    height: 54vh;
+    height: 64vh;
     grid-area: d;
-    padding: 20px;
+    padding: 2rem;
     border-radius: 10px;
 }
 
