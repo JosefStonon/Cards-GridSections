@@ -7,12 +7,17 @@
 }
 
 html {
-    background-color: hsl(0, 0%, 81%);
+    
     width: 100vw;
     height: 100vh;
     font-size: 62.5%;
 }
 
+body {
+    background-color: hsl(0, 0%, 81%);
+    justify-content: center;
+    align-items: center;
+}
 .container {
     background-color: hsl(0, 0%, 81%);
     color: aliceblue;
@@ -22,7 +27,8 @@ html {
     font-size: 1.3rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    margin: 5rem 10rem;
+    margin: auto 80px;
+    
 }
 
 h1 {
@@ -30,60 +36,142 @@ h1 {
 }
 
 p {
-    outline: 5px;
+    font-size: 11px;
+    opacity: 0.7;
 }
 
+.parag01 {
+    margin-top: 7px; 
+}
 
+.parag02{
+    font-size: 9px;
+    opacity: 0.5;
+}
 
+h1 {
+    margin: 30px auto;
+}
 
+.img-d {
+    width: 100%;
+}
 
 .daniel {
     background: hsl(263, 55%, 52%);
-    height: 40vh;
+    height: 28.5rem;
     grid-area: a;
-    padding: 2rem;
+    padding: 3rem 4.5rem;
     border-radius: 10px;
+    margin-top: 50px;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 0;
 }
 
-.text {
-    margin: 0 auto;
+.daniel .text {
+    background-color: aliceblue;
+    grid-area: a;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
 }
+
+/*.sub-cont {
+    grid-area: a;
+    height: 40vh;
+    border-radius: 10px;
+    margin-top: -50px;
+}*/
 
 
 
 
 .jonathan {
     background: hsl(217, 19%, 35%);
-    height: 40vh;
+    height: 28.5rem;
     grid-area: c;
-    padding: 2rem;
+    padding: 3rem 4.5rem;
     border-radius: 10px;
+    margin-top: 50px;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.jonathan .text {
+    background-color: aliceblue;
+    grid-area: c;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
 }
 
 .janette {
     background:  hsl(0, 0%, 100%);
     color: hsl(219, 29%, 14%);
-    height: 40vh;
+    height: 28.5rem;
     grid-area: e;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 10px;
+}
+
+.janette .text {
+    background-color: aliceblue;
+    grid-area: e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
 }
 
 .patrick {
     background: hsl(219, 29%, 14%);
     color: hsl(0, 0%, 81%);
-    height: 40vh;
+    height: 28.5rem;
     grid-area: f;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 10px;
+}
+
+.patrick .text {
+    background-color: aliceblue;
+    grid-area: f;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
 }
 
 .kira {
     background:  hsl(0, 0%, 100%);
     color: hsl(217, 19%, 35%);
-    height: 64vh;
+    height: 80.5vh;
     grid-area: d;
-    padding: 2rem;
+    padding: 3rem 4.5rem;
     border-radius: 10px;
+    margin-top: 50px;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.kira .text {
+    background-color: aliceblue;
+    grid-area: d;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
 }
 
