@@ -169,9 +169,10 @@ h1 {
     float: left;
 } 
 
-@media (max-widht: 920px) {
+@media (max-width: 920px) {
+
     .container {
-    grid-template-areas:  "a a c"
+    grid-template-areas: "a a c"
     "e f f" "d d d";
 
     }
